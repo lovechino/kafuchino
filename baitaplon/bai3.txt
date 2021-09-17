@@ -1,0 +1,19 @@
+Thẻ table trong HTML được sử dụng để hiển thị dữ liệu ở dạng bảng (hàng * cột). Có thể có nhiều cột trong một hàng.
+
+Các thẻ table trong HTML được sử dụng để quản lý việc bố cục trang web. Ví dụ: Phần tiêu đề, thanh điều hướng, nội dung trang, phần chân trang… Nhưng bạn nên sử dụng thẻ div thay vì table để quản lý bố cục của trang.
+Tiêu đề của bảng được xác định bởi thẻ<th>
+Thẻ <td> định nghĩa một ô tiêu chuẩn trong bảng HTML.
+
+vid dụ
+<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Points</th>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td>
+<td>100</td>
+</tr>
+</table>

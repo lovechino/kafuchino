@@ -1,0 +1,12 @@
+form là một phần đặc biệt trong trang web, chúng ta sử dụng form để thu nhập thông tin từ người dùng. Trong thực tế, form có thể sử dụng trong các phần phản hồi, bình luận bài viết, thanh toán đơn hàng trực tuyến, form đăng nhập, đăng ký...là một phần đặc biệt trong trang web, chúng ta sử dụng form để thu nhập thông tin từ người dùng. Trong thực tế, form có thể sử dụng trong các phần phản hồi, bình luận bài viết, thanh toán đơn hàng trực tuyến, form đăng nhập, đăng ký...
+text xác định trường nhập văn bản một dòng
+radio xác định 1 nút radio(nút tròn)
+check đánh dấu lựa chọn 1 thuộc tính nào đó
+select được dùng để tạo một danh sách chọn lựa
+ option thành phần bên trong select
+textarea  được sử dụng để định nghĩa một ô nhập văn bản nhiều dòng
+file xác định một trường để chọn tệp từ máy tính và một nút "Browse" để duyệt và tải tệp lên.
+password xác định một trường nhập mật khẩu
+search được sử dụng cho tìm kiếm
+tel khung nhập sđt
+url được dùng cho trường nhập chứa địa chỉ URL

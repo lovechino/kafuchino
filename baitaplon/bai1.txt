@@ -1,0 +1,22 @@
+Block Elements
+Các Block element (phần tử khối) khi hiển thị trên trình duyệt chúng sẽ tự động thêm các ngắt dòng (line break) vào phía trước và phía sau nó. Hiểu một cách đơn giản là khi gọi 2 block elements ra thì mỗi element sẽ chiếm 1 dòng và width của các element này sẽ full luôn dòng đó.
+<h>:tiêu đề h
+<p>đại diện cho 1 đoạn văn bản
+<ol> tạo danh sách có thứ tự
+<ul> tạo danh sách không có thứ tự
+<li> phần tử trong danh sách
+<header> tạp phần đầu trang
+<nav> tạo phần điều hướng
+<pre> sử dụng để để chỉ định các văn bản đã được định dạng trước.
+<form> thu thập dữ liệu đầu vào của người dùng
+Inline Elements
+Các Inline element (phần tử nội tuyến) thường xuất hiện trong một đoạn văn , khi hiển thị trên trình duyệt nó không tự động thêm các ngắt dòng  vào phía trước và phía sau của nó.
+<span> sử dụng để nhóm các phần tử nội tuyến của trang lại thành một nhóm.
+<strong> in đậm đoạn văn bản được xác định
+<u> gạch chân lên văn bản
+<i> xác định một đoạn văn bản được định dạng kiểu chữ in nghiêng
+<input> sử dụng cho nhập dữ liệu đầu vào cho đầu vào dạng văn bản
+<output> đại diện cho một kết quả tính toán
+<sup>  tạo một ký tự nhỏ bên dưới.
+<select> được dùng để tạo một danh sách chọn lựa (danh sách thả xuống)
+<time> Tag <time> xác định thời gian, ngày tháng, hoặc năm sinh

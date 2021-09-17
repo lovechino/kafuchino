@@ -1,0 +1,9 @@
+External link là một dạng liên kết ra ngoài trang web của bạn. Tức là một liên kết từ trang website của bạn trỏ đến một trang website khác hoặc một tài nguyên khác trên internet. 
+ví dụ:
+<a href=”https://www.external-domain.com/”>Link Anchor Text</a>
+Local link: là những đường dẫn trỏ đến một 1 trang khác trên cùng 1 trang web
+ví dụ
+<a href="html_images.asp">Hình ảnh HTML</a>
+Relative path trỏ đến một file liên quan trong trang hiện tại.
+ví dụ
+<img src="/images/picture.jpg" alt="Mountain">
