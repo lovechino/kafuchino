@@ -1,0 +1,53 @@
+html {
+    background:url('');
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:pink;
+    color:violet;
+    padding:10px;
+    text-align:center;
+}
+.topnav {
+         overflow: hidden;
+         background-color: #58257b;
+}
+
+/* Định dạng link điều hướng */
+ .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+}
+
+
+
+.column{
+    float:left;
+    padding:10px;
+    
+}
+.column.side{
+    width:20%;
+    background-color: white;
+}
+.column.mid{
+    width:60%;
+}
+.row.after{
+    content:"";
+    display:table;
+    clear:both;
+}
+@media screen and(max-width:600px){
+    .coumn.side, .column.mid{
+        width:100%;
+    }
+}
