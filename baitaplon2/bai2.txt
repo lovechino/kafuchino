@@ -1,0 +1,3 @@
+External style sheets:liên kết với 1 file css bên ngoài
+Embedded style sheets:style nằm trong <head></head>
+Inline style:thiết lập style trực tiếp trong thẻ

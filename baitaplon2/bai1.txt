@@ -1,0 +1,7 @@
+CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (HTML).
+Ý nghĩa thêm style vào các phần tử HTML như đổi bố cục,đổi màu chữ ,font chữ ,thay đổi cấu trúc ....
+vd :
+body{
+	color :red;
+	font-size:15px;
+}

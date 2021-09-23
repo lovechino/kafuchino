@@ -1,0 +1,61 @@
+1.selector là mẫu để chọn phần tử HTML muốn định phong cách(style)
+2.element selector
+id selector
+class selector
+group selector
+3
+a,table{
+	boder:1;
+}
+b,.p{
+	color:red;
+}
+c,#photo{
+	max-width:150px;
+	max-height:300px;
+}
+d,
+ID Selector dùng để khai báo cho một phần tử HTML duy nhất và không sử dụng lần nào nữa trên website
+CLASS Selector dùng để khai báo cho nhiều phần tử có thể dùng chung một class
+4.
+1,*:chọn tất cả thành phần html
+tag :chon tất cả thành phần cùng loại
+2,<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h3 class="center">Heading này không bị ảnh hưởng bởi class center</h3>
+<p class="center">Đoạn này sẽ được căn giữa và có màu đỏ</p>
+<p class="center large">Đoạn này sẽ được căn giữa, có màu đỏ và kích thước 
+font chữ rất to</p>
+
+</body>
+</html>
+3,
+element :chọn tất cả phần tử
+element1 element2 :chọn các phần tử element2 trong element1
+element1 > element2 :chọn các phần tử element2 có phần tử cha là element1
+4,[attribute] :chọn các phần tử có chung thuộc tính
+vd:[target]
+[attributte~=value] chọn các phần tử có tiêu đề thuộc tính
+ chứa flower
+ vd:[title~=flower]
+[attribute=value]: chọn các phần tử có thuộc tính bằng value
+vd:[target=_blank]
+5,
+p::after :chèn thêm nội dung phía sau các phần tử <p>
+input:checked :chọn tất cả các phần tử <input> được chọn
+input:disabled :chọn cac phần tử <input> đang được vô hiệu hóa
+a:hover :chọn các liên kết khi di chuyển chuột qua
